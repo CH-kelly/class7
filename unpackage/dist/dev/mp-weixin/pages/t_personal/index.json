@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "navigationBarBackgroundColor": "#3FCC86",
+  "usingComponents": {
+    "v-date": "/pages/t_personal/child/date",
+    "free": "/pages/t_personal/child/free"
+  }
+}

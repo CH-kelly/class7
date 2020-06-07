@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/t_signIn/index",
+    "pages/t_signUp/index",
+    "pages/t_openLive/index",
+    "pages/t_courseDetail/index",
+    "pages/t_personal/index",
+    "pages/t_course/index",
+    "pages/t_withdrawal/index",
+    "pages/t_record/index",
+    "pages/t_order/index",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "usingComponents": {}
+}

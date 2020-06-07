@@ -1,0 +1,67 @@
+
+.date-top.data-v-84773054{
+	margin: 22rpx 0;
+}
+.date-item.data-v-84773054{
+	width: 14%;
+}
+.item.data-v-84773054{
+	padding: 10rpx;
+}
+.week.data-v-84773054{
+	font-size:24rpx;
+	color:rgba(169,169,169,1);
+}
+.day.data-v-84773054{
+	font-size:40rpx;
+	
+	font-weight:bold;
+	color:rgba(80,80,80,1);
+}
+.month.data-v-84773054{
+	font-size:20rpx;
+	color:rgba(187,187,187,1);
+}
+.active.data-v-84773054{
+	background: -webkit-gradient(linear,left top, left bottom,color-stop(8%, #3FCC86),to(#2FB27F));
+	background: -webkit-linear-gradient(top,#3FCC86 8%,#2FB27F);
+	background: linear-gradient(to bottom,#3FCC86 8%,#2FB27F);
+	-webkit-box-shadow: 0 0 10rpx 10rpx rgba(49,189,119,0.1);
+	        box-shadow: 0 0 10rpx 10rpx rgba(49,189,119,0.1);
+	border-radius: 20rpx;
+}
+.active>text.data-v-84773054{
+	color: #ffffff !important;
+}
+.date-timer.data-v-84773054{
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	padding: 30rpx 30rpx 0 30rpx ;
+	/* justify-content: space-evenly; */
+}
+.timer-item.data-v-84773054{
+	height:58rpx;
+	width:170rpx;
+	line-height: 58rpx;
+	text-align: center;
+	border:1rpx solid rgba(191,191,191,1);
+	border-radius:29rpx;
+	
+	
+	font-size:24rpx;
+	font-family:PingFang SC;
+	font-weight:500;
+	color:rgba(187,187,187,1);
+	margin-bottom: 30rpx;
+	/* margin: 30rpx; */
+	/* margin: 30rpx 50rpx 0 0; */
+}
+.no-item.data-v-84773054{
+	border: none;
+}
+.scroll-view.data-v-84773054{
+	height: 200rpx;
+
+	/* height: 140rpx; */
+}
+

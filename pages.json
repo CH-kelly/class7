@@ -1,0 +1,92 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/t_signIn/index",
+			"style": {
+				"navigationBarTitleText": "签到情况",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+			"path": "pages/t_signUp/index",
+			"style": {
+				"navigationBarTitleText": "报名情况",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+			"path": "pages/t_openLive/index",
+			"style": {
+				"navigationBarTitleText": "开启直播",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		
+		
+		{
+			"path": "pages/t_courseDetail/index",
+			"style": {
+				"navigationBarTitleText": "课程详情",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+			"path": "pages/t_personal/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor":"#3FCC86"
+			}
+		},
+		{
+			"path": "pages/t_course/index",
+			"style": {
+				"navigationBarTitleText": "我的课程",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		
+		{
+			"path": "pages/t_withdrawal/index",
+			"style": {
+				"navigationBarTitleText": "提现",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+			"path": "pages/t_record/index",
+			"style": {
+				"navigationBarTitleText": "课时费记录",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+			"path": "pages/t_order/index",
+			"style": {
+				"navigationBarTitleText": "订单管理",
+				"navigationBarBackgroundColor":"#ffffff"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

@@ -1,0 +1,156 @@
+
+.safearea.data-v-0a57d74d{
+	width: 100vw;
+	height: calc(100vh - 100rpx);
+	background-color: #EBEFF1;
+	position: relative;
+}
+.safearea>.bj.data-v-0a57d74d{
+	width: 100%;
+}
+.info.data-v-0a57d74d{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 0;
+	background: rgba(0,0,0,0.3);
+}
+.info-avatar.data-v-0a57d74d{
+	position: relative;
+	/* justify-content: center; */
+}
+.info-avatar>.avatar.data-v-0a57d74d{
+	width:160rpx;
+	height:160rpx;
+	border-radius:50%;
+	border: 8rpx solid #fff;
+	vertical-align: middle;
+}
+.info-avatar>.gender.data-v-0a57d74d{
+	position: absolute;
+	bottom: -10rpx;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	
+	width: 52rpx;
+	height: 31rpx;
+}
+.nickname.data-v-0a57d74d{
+	margin-top: 18rpx;
+	font-size:28rpx;
+	font-family:PingFang SC;
+	font-weight:500;
+	color:rgba(0,107,54,1);
+}
+.education.data-v-0a57d74d{
+	margin-top: 18rpx;
+	width:137rpx;
+	height:32rpx;
+	line-height: 32rpx;
+	text-align: center;
+	background:rgba(49,189,119,1);
+	border-radius:4rpx;
+	
+	
+	font-size:20rpx;
+	color:rgba(255,255,255,1);
+}
+.label.data-v-0a57d74d{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.label-line.data-v-0a57d74d{
+	width:2rpx;
+	height:30rpx;
+	background:rgba(0,0,0,0.2);
+	margin: 0 60rpx;
+}
+.signature.data-v-0a57d74d{
+	width:540rpx;
+	/* height:90rpx; */
+	background:rgba(49,189,119,1);
+	border-radius:20rpx 20rpx 0rpx 0rpx;
+	padding: 18rpx 49rpx;
+	text-align: center;
+	
+	font-size:24rpx;
+	color:rgba(255,255,255,1);
+	line-height:32rpx;
+}
+.good-at.data-v-0a57d74d{
+	width:650rpx;
+	padding: 30rpx;
+	/* height:260rpx; */
+	background:rgba(255,255,255,1);
+	border-radius:20rpx;
+}
+.top-left>text.data-v-0a57d74d{
+	font-size:30rpx;
+	color:rgba(41,50,61,1);
+}
+.good.data-v-0a57d74d{
+	width: 36rpx;
+	height: 38rpx;
+}
+.add.data-v-0a57d74d{
+	width: 46rpx;
+	height: 46rpx;
+}
+.scroll-view.data-v-0a57d74d{
+	height: 200rpx;
+}
+.good-label.data-v-0a57d74d{
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+	margin-bottom: 40rpx;
+}
+.label-title.data-v-0a57d74d{
+	/* width:248rpx; */
+	margin: 24rpx 30rpx 0 0;
+	padding: 0 16rpx;
+	height:50rpx;
+	line-height: 50rpx;
+	text-align: center;
+	border:1rpx dashed rgba(88,95,122,1);
+	border-radius:25rpx;
+	
+	font-size:28rpx;
+	color:rgba(88,95,122,1);
+}
+.good-title.data-v-0a57d74d{
+	padding: 0 16rpx;
+}
+/* 预约时间样式 */
+.appointment.data-v-0a57d74d{
+	width: 100vw;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	/* padding: 30rpx; */
+	padding: 30rpx 30rpx 20rpx 30rpx;
+	background-color: #ffffff;
+	border-radius:20rpx 20rpx 0px 0px;
+	
+	
+	position: fixed;
+	bottom: 0px;
+}
+.change-text.data-v-0a57d74d{
+	font-size:22rpx !important;
+	color:rgba(253,101,11,1) !important;
+}
+
+

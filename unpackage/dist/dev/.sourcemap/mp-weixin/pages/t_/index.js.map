@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///D:/webProject/class7/main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,yM;AACAA,UAAU,CAACC,cAAD,CAAV,C","file":"pages/t_/index.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/t_/index.vue'\ncreatePage(Page)"],"sourceRoot":""}
