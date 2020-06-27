@@ -1,92 +1,275 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/t_signIn/index",
+			"path": "pages/home_S/home",
 			"style": {
-				"navigationBarTitleText": "签到情况",
-				"navigationBarBackgroundColor":"#ffffff"
+				"navigationBarTitleText": "树基探马七课堂"
 			}
-		},
-		{
-			"path": "pages/t_signUp/index",
+		}, {
+			"path": "pages/home_S/growUp",
 			"style": {
-				"navigationBarTitleText": "报名情况",
-				"navigationBarBackgroundColor":"#ffffff"
+				"navigationBarTitleText": "成长记录"
 			}
-		},
-		{
-			"path": "pages/t_openLive/index",
+		},  {
+			"path": "pages/user_S/Data",
 			"style": {
-				"navigationBarTitleText": "开启直播",
-				"navigationBarBackgroundColor":"#ffffff"
+				"navigationBarTitleText": "个人资料"
 			}
-		},
-		
-		
-		{
-			"path": "pages/t_courseDetail/index",
+		}, {
+			"path": "pages/user_S/admin2",
 			"style": {
-				"navigationBarTitleText": "课程详情",
-				"navigationBarBackgroundColor":"#ffffff"
+				"navigationBarTitleText": "数据统计"
 			}
-		},
-		{
-			"path": "pages/t_personal/index",
+		}, {
+			"path": "pages/user_S/admin1",
+			"style": {
+				"navigationBarTitleText": "核销记录"
+			}
+		}, {
+			"path": "pages/user_S/admin",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/user_S/teacher",
+			"style": {
+				"navigationBarTitleText": "老师中心"
+			}
+		}, {
+			"path": "pages/user_S/vip",
+			"style": {
+				"navigationBarTitleText": "会员购买"
+			}
+		}, {
+			"path": "pages/user_S/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/user_S/order",
+			"style": {
+				"navigationBarTitleText": "课程订单"
+			}
+		}, {
+			"path": "pages/study_S/appointmentDetails",
 			"style": {
 				"navigationBarTitleText": "",
-				"navigationBarBackgroundColor":"#3FCC86"
+				"navigationBarBackgroundColor": "#3FCB85"
 			}
-		},
-		{
-			"path": "pages/t_course/index",
+		}, {
+			"path": "pages/study_S/appointment",
 			"style": {
-				"navigationBarTitleText": "我的课程",
-				"navigationBarBackgroundColor":"#ffffff"
+				"navigationBarTitleText": "我的预约"
 			}
-		},
-		
-		{
-			"path": "pages/t_withdrawal/index",
+		}, {
+			"path": "pages/study_S/Fabulous",
 			"style": {
-				"navigationBarTitleText": "提现",
-				"navigationBarBackgroundColor":"#ffffff"
+				"navigationBarTitleText": "我的点赞"
 			}
-		},
-		{
-			"path": "pages/t_record/index",
+		}, {
+			"path": "pages/study_S/curriculum",
 			"style": {
-				"navigationBarTitleText": "课时费记录",
-				"navigationBarBackgroundColor":"#ffffff"
+				"navigationBarTitleText": "收藏课程"
 			}
-		},
-		{
-			"path": "pages/t_order/index",
+		}, {
+			"path": "pages/study_S/Learned",
 			"style": {
-				"navigationBarTitleText": "订单管理",
-				"navigationBarBackgroundColor":"#ffffff"
+				"navigationBarTitleText": "已学课程"
 			}
-		},
-		{
-			"path": "pages/index/index",
+		}, {
+			"path": "pages/study_S/study",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "学习"
+			}
+		}, {
+			"path": "pages/home_S/liveBroadcastDetails",
+			"style": {
+				"navigationBarTitleText": "直播",
+				"usingComponents": {
+					"mlvb-live-room": "/wxcomponents/mlvb-live-room/mlvbliveroomview"
+				}
+			}
+		}, {
+			"path": "pages/home_S/onLineDetails",
+			"style": {
+				"navigationBarTitleText": "课程详情"
+			}
+		}, {
+			"path": "pages/home_S/onLine",
+			"style": {
+				"navigationBarTitleText": "线上课程"
+			}
+		}, {
+			"path": "pages/home_S/videoDetails",
+			"style": {
+				"navigationBarTitleText": "课程详情"
+			}
+		}, {
+			"path": "pages/home_S/video",
+			"style": {
+				"navigationBarTitleText": "视频学院"
+			}
+		}, {
+			"path": "pages/home_S/aboutUs",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		}, {
+			"path": "pages/home_S/course",
+			"style": {
+				"navigationBarTitleText": "图文教程"
+			}
+		}, {
+			"path": "pages/home_S/Appointment",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#3FCB85"
+			}
+		},{
+			"path": "pages/home_S/teacherDetails",
+			"style": {
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#3FCB85"
+			}
+		}, {
+			"path": "pages/home_S/accompanyPracticeList",
+			"style": {
+				"navigationBarTitleText": "课程陪练"
 			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTitleText": "七课堂",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
 	},
-	"condition" : { //模式配置，仅开发期间生效
-		"current": 0, //当前激活的模式(list 的索引项)
-		"list": [
+	"tabBar": {
+		"color": "#B3B3C3",
+		"selectedColor": "#3FCB85",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/home_S/home",
+			"iconPath": "static/tab_s/tab1.png",
+			"selectedIconPath": "static/tab_s/tab1Act.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/study_S/study",
+			"iconPath": "static/tab_s/tab2.png",
+			"selectedIconPath": "static/tab_s/tab2Act.png",
+			"text": "学习"
+		}, {
+			"pagePath": "pages/user_S/user",
+			"iconPath": "static/tab_s/tab3.png",
+			"selectedIconPath": "static/tab_s/tab3Act.png",
+			"text": "我的"
+		}]
+	},
+	"subPackages": [{
+		"root": "teacher",
+		"pages": [
 			{
-				"name": "", //模式名称
-				"path": "", //启动页面，必选
-				"query": "" //启动参数，在页面的onLoad函数里面得到
+				"path": "t_course/index",
+				"style": {
+					"navigationBarTitleText": "我的课程",
+					"navigationBarBackgroundColor": "#ffffff"
+				}
+			},
+			{
+				"path": "t_personal/index",
+				"style": {
+					"navigationBarTitleText": "",
+					"navigationBarBackgroundColor": "#3FCC86"
+				}
+			},
+			{
+				"path": "t_editInfo/index",
+				"style": {
+					"navigationBarTitleText": "个人资料",
+					"navigationBarBackgroundColor": "#ffffff"
+				}
+			},
+			{
+				"path": "t_editDesc/index",
+				"style": {
+					"navigationBarTitleText": "个人简介",
+					"navigationBarBackgroundColor": "#ffffff"
+				}
+			},
+			{
+				"path": "t_order/index",
+				"style": {
+					"navigationBarTitleText": "订单管理",
+					"navigationBarBackgroundColor": "#ffffff"
+				}
+			},
+			
+			
+			{
+				"path": "t_signIn/index",
+				"style": {
+					"navigationBarTitleText": "签到情况",
+					"navigationBarBackgroundColor": "#ffffff"
+				}
+			},
+			{
+				"path": "t_signUp/index",
+				"style": {
+					"navigationBarTitleText": "报名情况",
+					"navigationBarBackgroundColor": "#ffffff"
+				}
+			},
+			{
+				"path": "t_openLive/index",
+				"style": {
+					"navigationBarTitleText": "开启直播",
+					"navigationBarBackgroundColor": "#ffffff"
+				}
+			},
+			{
+				"path": "t_on_line/index",
+				"style": {
+					"navigationBarTitleText": "在线直播",
+					"navigationBarTextStyle":"white",
+					"navigationBarBackgroundColor": "#584C62",
+					"pageOrientation":"landscape",
+					"navigationStyle":"custom",
+					"usingComponents": {
+						"mlvb-live-room": "/wxcomponents/mlvb-live-room/mlvbliveroomview"
+					}
+				}
+			},
+			
+			{
+				"path": "t_courseDetail/index",
+				"style": {
+					"navigationBarTitleText": "课程详情",
+					"navigationBarBackgroundColor": "#ffffff"
+				}
+			},
+			{
+				"path": "t_withdrawal/index",
+				"style": {
+					"navigationBarTitleText": "提现",
+					"navigationBarBackgroundColor": "#ffffff"
+				}
+			},
+			{
+				"path": "t_record/index",
+				"style": {
+					"navigationBarTitleText": "课时费记录",
+					"navigationBarBackgroundColor": "#ffffff"
+				}
+			},
+			{
+				"path": "t_recordList/index",
+				"style": {
+					"navigationBarTitleText": "记录列表",
+					"navigationBarBackgroundColor": "#ffffff",
+					"enablePullDownRefresh":true
+				}
 			}
 		]
-	}
+	}]
 }

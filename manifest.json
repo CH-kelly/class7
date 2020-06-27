@@ -1,5 +1,5 @@
 {
-    "name" : "Class7",
+    "name" : "Seven",
     "appid" : "",
     "description" : "",
     "versionName" : "1.0.0",
@@ -57,10 +57,10 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "wx91254cc3dabb3d29",
+        "appid" : "wxb89216063ae3aa85",
         "setting" : {
-            "urlCheck" : true,
-            "postcss" : false
+            "urlCheck" : false,
+            "postcss" : true
         },
         "usingComponents" : true
     },

@@ -60,6 +60,7 @@
 /* 安全区域的内容宽高 */
 .safearea{
 	width: 100vw;
+	height: calc(100vh - 100rpx );
 	background: #EBEFF1;
 }
 .ipx{

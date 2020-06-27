@@ -1,38 +1,9 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	/*每个页面公共css */
 :root {
 	--tabbar-text:#B4B4C3;
 	--tabbar-text-active:#3FCC86;
 }
+
+
 
 /* 底部导航栏样式 */
 .tabbar{
@@ -102,16 +73,23 @@
 	color: $uni-color-primary;
 }
 
+
+
 /* 底部导航栏样式结束 */
+
+
 
 /* 安全区域的内容宽高 */
 .safearea{
 	width: 100vw;
+	height: calc(100vh - 100rpx );
 	background: #EBEFF1;
 }
 .ipx{
 	height: calc(100vh - 100rpx - 30rpx);
 }
+
+
 
 /* 文字样式 */
 .t-text{
@@ -121,6 +99,8 @@
 	color:rgba(35,35,35,1);
 }
 
+
+
 /* 显示一行，多余的... */
 .hidden_1{
 	display:-webkit-box;
@@ -128,6 +108,8 @@
 	-webkit-box-orient:vertical;
 	overflow:hidden;
 }
+
+
 
 /* 显示二行，多余的... */
 .hidden_2{
@@ -138,6 +120,8 @@
 	overflow:hidden;
 }
 
+
+
 /* 显示三行，多余的... */
 .hidden_3{
 	
@@ -147,12 +131,33 @@
 	overflow:hidden;
 }
 
+
+
 /* 线条 */
 .t-line{
 	width: 100%;
 	height: 2rpx;
 	background:rgba(228,228,228,0.3);
-}	
-	
-	
+}
+
+
+
+/*每个页面公共css */
+.Ellipsis {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.Ellipsis2 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
+.Ellipsis3 {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
 

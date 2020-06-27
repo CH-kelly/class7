@@ -1,22 +1,84 @@
 {
   "pages": [
-    "pages/t_signIn/index",
-    "pages/t_signUp/index",
-    "pages/t_openLive/index",
-    "pages/t_courseDetail/index",
-    "pages/t_personal/index",
-    "pages/t_course/index",
-    "pages/t_withdrawal/index",
-    "pages/t_record/index",
-    "pages/t_order/index",
-    "pages/index/index"
+    "pages/home_S/home",
+    "pages/home_S/growUp",
+    "pages/user_S/Data",
+    "pages/user_S/admin2",
+    "pages/user_S/admin1",
+    "pages/user_S/admin",
+    "pages/user_S/teacher",
+    "pages/user_S/vip",
+    "pages/user_S/user",
+    "pages/user_S/order",
+    "pages/study_S/appointmentDetails",
+    "pages/study_S/appointment",
+    "pages/study_S/Fabulous",
+    "pages/study_S/curriculum",
+    "pages/study_S/Learned",
+    "pages/study_S/study",
+    "pages/home_S/liveBroadcastDetails",
+    "pages/home_S/onLineDetails",
+    "pages/home_S/onLine",
+    "pages/home_S/videoDetails",
+    "pages/home_S/video",
+    "pages/home_S/aboutUs",
+    "pages/home_S/course",
+    "pages/home_S/Appointment",
+    "pages/home_S/teacherDetails",
+    "pages/home_S/accompanyPracticeList"
   ],
-  "subPackages": [],
+  "subPackages": [
+    {
+      "root": "teacher",
+      "pages": [
+        "t_course/index",
+        "t_personal/index",
+        "t_editInfo/index",
+        "t_editDesc/index",
+        "t_order/index",
+        "t_signIn/index",
+        "t_signUp/index",
+        "t_openLive/index",
+        "t_on_line/index",
+        "t_courseDetail/index",
+        "t_withdrawal/index",
+        "t_record/index",
+        "t_recordList/index"
+      ]
+    }
+  ],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "navigationBarTitleText": "七课堂",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
   },
-  "usingComponents": {}
+  "tabBar": {
+    "color": "#B3B3C3",
+    "selectedColor": "#3FCB85",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/home_S/home",
+        "iconPath": "static/tab_s/tab1.png",
+        "selectedIconPath": "static/tab_s/tab1Act.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/study_S/study",
+        "iconPath": "static/tab_s/tab2.png",
+        "selectedIconPath": "static/tab_s/tab2Act.png",
+        "text": "学习"
+      },
+      {
+        "pagePath": "pages/user_S/user",
+        "iconPath": "static/tab_s/tab3.png",
+        "selectedIconPath": "static/tab_s/tab3Act.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap40.json"
 }
